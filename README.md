@@ -1,7 +1,7 @@
 # MMM-TheEnergyDetective
 Magic Mirror Module to display [The Energy Detective (TED)](https://theenergydetective.com/) energy data.
 
-The module supports different panes:
+The module supports several panes and can cycle through them or be configured multiple times to show several at once
 
 **Pane "summary"**
 
@@ -56,7 +56,7 @@ On Raspbian, you can do this by first editing the `TedMonitor.service` file and 
 ````
 nano ~/MagicMirror/modules/MMM-TheEnergyDetective/native/TedMonitor.service
 ````
-Look for the `/h=&lt;your ecc address&gt;` part and replace the bracketed part with your ECC's address or dns name.
+Look for the `/h=your ecc address` part and replace the bracketed part with your ECC's address or dns name.
 
 **Command-line options for TedMonitor:**
 
