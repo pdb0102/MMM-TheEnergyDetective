@@ -5,7 +5,7 @@ Description=The Energy Detective Magic Mirror Monitoring Module
 Type=simple
 User=pi
 WorkingDirectory=/home/pi/MagicMirror/modules/MMM-TheEnergyDetective/native
-ExecStart=/usr/bin/mono TedMonitor.exe /h=power.bartok.us /o=/home/pi/MagicMirror/modules/MMM-TheEnergyDetective/data /s=5000 /f=0.25 /s
+ExecStart=/usr/bin/mono TedMonitor.exe /h=<your ecc address> /o=/home/pi/MagicMirror/modules/MMM-TheEnergyDetective/data /s
 Restart=always
 
 [Install]
