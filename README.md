@@ -1,5 +1,5 @@
-# MMM-TheEnergyDetective
-Magic Mirror Module to display [The Energy Detective (TED)](https://theenergydetective.com/) energy data.
+# Module: MMM-TheEnergyDetective
+MagicMirror Module to display [The Energy Detective (TED)](https://theenergydetective.com/) energy data.
 
 The module supports several panes and can cycle through them or be configured multiple times to show several at once.
 
