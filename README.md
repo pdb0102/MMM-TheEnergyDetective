@@ -1,7 +1,7 @@
 # MMM-TheEnergyDetective
 Magic Mirror Module to display [The Energy Detective (TED)](https://theenergydetective.com/) energy data.
 
-The module supports several panes and can cycle through them or be configured multiple times to show several at once
+The module supports several panes and can cycle through them or be configured multiple times to show several at once.
 
 **Pane "summary"**
 
@@ -28,7 +28,7 @@ The module supports several panes and can cycle through them or be configured mu
 To perform the following steps, first open a terminal window.
 
 ### Install Dependencies
-The module relies on the .Net application 'TedMonitor.exe' (provided in the `native` directory) to obtain the data from the TED ECC. You'll need [Mono](https://www.mono-project.com/) on your system if you're not running Windows.
+The module relies on the .Net application ['TedMonitor.exe'](https://github.com/pdb0102/TedMonitor) (a ready-to-use executable is included in the `native` directory) to obtain the data from the TED ECC. You'll need [Mono](https://www.mono-project.com/) on your system if you're not running Windows.
 
 On Raspbian, run
 ````
