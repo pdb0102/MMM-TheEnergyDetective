@@ -1,0 +1,115 @@
+.gauge-content {
+	display: flex;
+}
+
+.mask {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	width: 12.5rem;
+	height: 6.25rem;
+	margin: 2.25rem;
+}
+
+.semi-circle {
+	position: relative;
+	display: block;
+	width: 12.5rem;
+	height: 6.25rem;
+	background: linear-gradient(to right, #c0392b 0%, #f1c40f 50%, #1abc9c 100%);
+	border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+
+.semi-circle::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	width: 8.75rem;
+	height: 4.375rem;
+	margin-left: -4.375rem;
+	background: #000;
+	border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+
+.semi-circle--mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 12.5rem;
+	height: 12.5rem;
+	background: transparent;
+	transform: rotate(120deg) translate3d(0, 0, 0);
+	transform-origin: center center;
+	backface-visibility: hidden;
+	transition: all .3s ease-in-out;
+}
+
+	.semi-circle--mask::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0%;
+		z-index: 2;
+		display: block;
+		width: 12.625rem;
+		height: 6.375rem;
+		margin: -1px 0 0 -1px;
+		background: #222222;
+		border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+	}
+
+.gauge--1 .semi-circle {
+	background: #1abc9c;
+}
+
+.gauge--2 .semi-circle--mask {
+	transform: rotate(125deg) translate3d(0, 0, 0);
+}
+
+.gauge--3 .semi-circle--mask {
+	transform: rotate(120deg) translate3d(0, 0, 0);
+}
+
+.gauge-label {
+	position: relative;
+	left: 39%;
+	z-index: 3;
+	top: 80%;
+	float: left;
+	display: inline-block;
+}
+
+.solar-label {
+	height: 15pt;
+	text-align: center;
+	border-bottom: 1px solid #666;
+}
+
+.ted-sypder-description {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.ted-overview-description {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.ted-present {
+	padding-right: 30px;
+	text-align: center;
+}
+
+.ted-today {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+.ted-unit {
+	font-size: 50%;
+	line-height: 50%;
+}
+
