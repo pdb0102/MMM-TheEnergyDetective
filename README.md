@@ -4,19 +4,24 @@ Magic Mirror Module to display [The Energy Detective (TED)](https://theenergydet
 The module supports different panes:
 
 **Pane "summary"**
-<img src="https://user-images.githubusercontent.com/17531356/50731541-c4d06f80-1124-11e9-9243-10ae33d2f33d.png" width="90%"></img>
+
+<img src="https://user-images.githubusercontent.com/17531356/50731541-c4d06f80-1124-11e9-9243-10ae33d2f33d.png"></img>
 
 **Pane "dashboard"**
-<img src="https://user-images.githubusercontent.com/17531356/50731544-c5690600-1124-11e9-93fa-d82c8abed926.png" width="90%"></img> 
+
+<img src="https://user-images.githubusercontent.com/17531356/50731544-c5690600-1124-11e9-93fa-d82c8abed926.png"></img> 
 
 **Pane "spyder-htol"**
-<img src="https://user-images.githubusercontent.com/17531356/50731540-c4d06f80-1124-11e9-95df-47835ff828f3.png" width="90%"></img>
+
+<img src="https://user-images.githubusercontent.com/17531356/50731540-c4d06f80-1124-11e9-95df-47835ff828f3.png"></img>
 
 **Pane "spyder-atoz"**
-<img src="https://user-images.githubusercontent.com/17531356/50731542-c5690600-1124-11e9-80b9-583940aef7b9.png" width="90%"></img>
+
+<img src="https://user-images.githubusercontent.com/17531356/50731542-c5690600-1124-11e9-80b9-583940aef7b9.png"></img>
 
 **Pane "solar-now"**
-<img src="https://user-images.githubusercontent.com/17531356/50731543-c5690600-1124-11e9-9a94-1c6134601b24.png" width="90%"></img>
+
+<img src="https://user-images.githubusercontent.com/17531356/50731543-c5690600-1124-11e9-9a94-1c6134601b24.png"></img>
 
 ## Installation
 
